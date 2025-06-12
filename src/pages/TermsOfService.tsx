@@ -27,99 +27,78 @@ const TermsOfService = () => {
 
                 <div className="prose max-w-none space-y-6">
                     <section>
-                        <h2 className="text-xl font-semibold mb-3">
-                            1. Introduction
-                        </h2>
                         <p>
-                            Welcome to CruxConverter. These Terms of Service
-                            govern your use of our website located at
-                            [website-url] and form a binding legal agreement
-                            between you and CruxConverter.
-                        </p>
-                        <p>
-                            By accessing or using our website, you confirm that
-                            you accept these Terms of Service and agree to
-                            comply with them. If you do not agree with these
-                            terms, you must not use our website.
+                            <strong>Effective Date:</strong> June 12, 2025
                         </p>
                     </section>
 
                     <section>
                         <h2 className="text-xl font-semibold mb-3">
-                            2. Services
+                            1. Agreement to Terms
                         </h2>
                         <p>
-                            CruxConverter provides a rock climbing grade
-                            conversion tool that allows users to convert between
-                            different climbing grade systems. The information
-                            provided is for reference only and should not be
-                            solely relied upon for safety-critical decisions.
+                            By accessing or using CruxConverter, you agree to be
+                            bound by these Terms of Service. If you do not agree
+                            with these terms, please do not use the site.
                         </p>
                     </section>
 
                     <section>
                         <h2 className="text-xl font-semibold mb-3">
-                            3. User Obligations
+                            2. Description of Service
                         </h2>
-                        <p>When using our website, you agree to:</p>
+                        <p>
+                            CruxConverter is a free, browser-based tool that
+                            allows users to convert climbing grades between
+                            different grading systems. It is provided as-is for
+                            informational purposes only.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2 className="text-xl font-semibold mb-3">
+                            3. No Warranty
+                        </h2>
+                        <p>
+                            We make no guarantees as to the accuracy,
+                            reliability, or completeness of the grade
+                            conversions provided. Grade equivalencies are
+                            subjective and may vary based on region, climbing
+                            discipline, and local grading norms.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2 className="text-xl font-semibold mb-3">
+                            4. User Responsibilities
+                        </h2>
+                        <p>When using the service, you agree to:</p>
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
-                                Use the website in a manner consistent with all
-                                applicable laws and regulations.
+                                Use the site solely for lawful and
+                                non-commercial purposes.
                             </li>
                             <li>
-                                Not engage in any activity that could damage,
-                                disable, or impair the functionality of the
-                                website.
+                                Not attempt to reverse engineer, copy, or
+                                distribute the service.
                             </li>
                             <li>
-                                Not attempt to gain unauthorized access to any
-                                part of the website or its systems.
-                            </li>
-                            <li>
-                                Not use automated systems or software to extract
-                                data from our website (screen scraping).
+                                Not misuse the application or disrupt its
+                                operation.
                             </li>
                         </ul>
                     </section>
 
                     <section>
                         <h2 className="text-xl font-semibold mb-3">
-                            4. Intellectual Property
+                            5. Intellectual Property
                         </h2>
                         <p>
-                            All content on this website, including but not
-                            limited to text, graphics, logos, icons, images, and
-                            software, is the property of CruxConverter and is
-                            protected by international copyright laws.
-                        </p>
-                        <p>
-                            You may view, download, and print content from the
-                            website for your personal, non-commercial use only.
-                            Any other use, including reproduction, modification,
-                            distribution, or republication, without prior
-                            written consent from CruxConverter, is strictly
-                            prohibited.
-                        </p>
-                    </section>
-
-                    <section>
-                        <h2 className="text-xl font-semibold mb-3">
-                            5. Disclaimer of Warranties
-                        </h2>
-                        <p>
-                            CruxConverter provides this website and its content
-                            on an "as is" and "as available" basis. We make no
-                            representations or warranties of any kind, express
-                            or implied, regarding the accuracy, reliability, or
-                            availability of the website or its content.
-                        </p>
-                        <p>
-                            Climbing grade conversions are provided for
-                            informational purposes only. Due to the subjective
-                            nature of climbing grades and variations between
-                            regions and climbing areas, we cannot guarantee the
-                            accuracy of all conversions.
+                            All content, design elements, code, and materials on
+                            this website are the intellectual property of
+                            CruxConverter or its licensors and are protected
+                            under applicable copyright, trademark, and
+                            intellectual property laws.
                         </p>
                     </section>
 
@@ -128,97 +107,55 @@ const TermsOfService = () => {
                             6. Limitation of Liability
                         </h2>
                         <p>
-                            To the maximum extent permitted by law,
-                            CruxConverter shall not be liable for any indirect,
-                            incidental, special, consequential, or punitive
-                            damages, or any loss of profits or revenues, whether
-                            incurred directly or indirectly, or any loss of
-                            data, use, goodwill, or other intangible losses
-                            resulting from your use of our website.
+                            To the fullest extent permitted by applicable law,
+                            CruxConverter shall not be liable for any direct,
+                            indirect, incidental, consequential, or punitive
+                            damages arising from or related to the use of this
+                            website.
                         </p>
                         <p>
-                            Rock climbing is an inherently dangerous activity.
-                            Users should always verify climbing grades and
-                            information from multiple sources before making
-                            safety-critical decisions.
+                            Use of this site does not substitute for
+                            professional climbing instruction or official grade
+                            sources. Always exercise caution in outdoor or
+                            indoor climbing activities.
                         </p>
                     </section>
 
                     <section>
                         <h2 className="text-xl font-semibold mb-3">
-                            7. Third-Party Links
+                            7. Modifications to Terms
                         </h2>
                         <p>
-                            Our website may contain links to third-party
-                            websites that are not owned or controlled by
-                            CruxConverter. We have no control over and assume no
-                            responsibility for the content, privacy policies, or
-                            practices of any third-party websites.
-                        </p>
-                        <p>
-                            We do not warrant or make any representations
-                            concerning the accuracy, reliability, or
-                            availability of any information on third-party
-                            websites.
+                            We reserve the right to amend these Terms at any
+                            time. Updates will be posted on this page with the
+                            effective date. Continued use of the website after
+                            changes constitutes acceptance of the new Terms.
                         </p>
                     </section>
 
                     <section>
                         <h2 className="text-xl font-semibold mb-3">
-                            8. Advertising
+                            8. Governing Law
                         </h2>
                         <p>
-                            CruxConverter displays advertisements on the
-                            website. These advertisements may be targeted based
-                            on the content you view, data about your browser or
-                            device, or other non-personally identifiable
-                            information.
-                        </p>
-                        <p>
-                            By using our website, you agree to the display of
-                            such advertisements. Please refer to our Privacy
-                            Policy for more information about how we handle data
-                            in relation to advertising.
+                            These Terms are governed by and construed in
+                            accordance with the laws of your jurisdiction of
+                            residence, without regard to conflict of law
+                            principles.
                         </p>
                     </section>
 
                     <section>
                         <h2 className="text-xl font-semibold mb-3">
-                            9. Changes to Terms
+                            9. Contact Information
                         </h2>
                         <p>
-                            We reserve the right to modify these Terms of
-                            Service at any time. If we make material changes, we
-                            will notify users by updating the date at the top of
-                            these terms and, where appropriate, notify you by
-                            email or by means of a notice on our website.
-                        </p>
-                        <p>
-                            Your continued use of the website after such
-                            modifications constitutes your acceptance of the
-                            revised Terms of Service.
-                        </p>
-                    </section>
-
-                    <section>
-                        <h2 className="text-xl font-semibold mb-3">
-                            10. Governing Law
-                        </h2>
-                        <p>
-                            These Terms of Service shall be governed by and
-                            construed in accordance with the laws of [Your
-                            Country/State], without regard to its conflict of
-                            law provisions.
-                        </p>
-                    </section>
-
-                    <section>
-                        <h2 className="text-xl font-semibold mb-3">
-                            11. Contact Us
-                        </h2>
-                        <p>
-                            If you have any questions about these Terms of
-                            Service, please contact us at [contact email].
+                            If you have any questions or concerns regarding
+                            these Terms of Service, please contact us at{" "}
+                            <a href="mailto:cruxconverter@gmail.com">
+                                cruxconverter@gmail.com
+                            </a>
+                            .
                         </p>
                     </section>
                 </div>
