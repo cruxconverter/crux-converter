@@ -1,0 +1,390 @@
+import { GradeData } from "../types/grades";
+
+export const gradeData: GradeData[] = [
+    // Beginner grades
+    {
+        id: 1,
+        difficulty: "beginner",
+        sport: {
+            french: "1",
+            uiaa: "I",
+            yds: "5.0",
+            uk: "3a",
+            australian: "10",
+        },
+    },
+    {
+        id: 2,
+        difficulty: "beginner",
+        sport: {
+            french: "2",
+            uiaa: "II",
+            yds: "5.1/5.2",
+            uk: "3b",
+            australian: "11",
+        },
+    },
+    {
+        id: 3,
+        difficulty: "beginner",
+        sport: {
+            french: "3",
+            uiaa: "III",
+            yds: "5.3/5.4",
+            uk: "3c",
+            australian: "12",
+        },
+    },
+    {
+        id: 4,
+        difficulty: "beginner",
+        sport: {
+            french: "4a",
+            uiaa: "IV",
+            yds: "5.5",
+            uk: "4a",
+            australian: "13",
+        },
+        bouldering: { font: "3", vScale: "VB", ukTech: "4a" },
+    },
+    {
+        id: 5,
+        difficulty: "beginner",
+        sport: {
+            french: "4b",
+            uiaa: "IV+",
+            yds: "5.6",
+            uk: "4b",
+            australian: "14",
+        },
+        bouldering: { font: "3+", vScale: "V0-", ukTech: "4b" },
+    },
+    {
+        id: 6,
+        difficulty: "beginner",
+        sport: {
+            french: "4c",
+            uiaa: "V",
+            yds: "5.7",
+            uk: "4c",
+            australian: "15",
+        },
+        bouldering: { font: "4", vScale: "V0", ukTech: "4c" },
+    },
+    {
+        id: 7,
+        difficulty: "beginner",
+        sport: {
+            french: "5a",
+            uiaa: "V+",
+            yds: "5.8",
+            uk: "",
+            australian: "16",
+        },
+        bouldering: { font: "4+", vScale: "V0+", ukTech: "" },
+    },
+    {
+        id: 8,
+        difficulty: "intermediate",
+        sport: {
+            french: "5b",
+            uiaa: "VI-",
+            yds: "5.9",
+            uk: "5a",
+            australian: "17",
+        },
+        bouldering: { font: "5", vScale: "V1", ukTech: "5a" },
+    },
+
+    // Intermediate grades
+    {
+        id: 9,
+        difficulty: "intermediate",
+        sport: {
+            french: "5c",
+            uiaa: "VI",
+            yds: "5.10a",
+            uk: "",
+            australian: "18",
+        },
+        bouldering: { font: "5+", vScale: "V2", ukTech: "5b" },
+    },
+    {
+        id: 10,
+        difficulty: "intermediate",
+        sport: {
+            french: "6a",
+            uiaa: "VI+",
+            yds: "5.10b",
+            uk: "5b",
+            australian: "19",
+        },
+        bouldering: { font: "6A", vScale: "V3", ukTech: "5c" },
+    },
+    {
+        id: 11,
+        difficulty: "intermediate",
+        sport: {
+            french: "6a+",
+            uiaa: "VII-",
+            yds: "5.10c",
+            uk: "",
+            australian: "20",
+        },
+        bouldering: { font: "6A+", vScale: "", ukTech: "" },
+    },
+    {
+        id: 12,
+        difficulty: "intermediate",
+        sport: {
+            french: "6b",
+            uiaa: "VII",
+            yds: "5.10d",
+            uk: "5c",
+            australian: "21",
+        },
+        bouldering: { font: "6B", vScale: "V4", ukTech: "6a" },
+    },
+    {
+        id: 13,
+        difficulty: "intermediate",
+        sport: {
+            french: "6b+",
+            uiaa: "VII+",
+            yds: "5.11a",
+            uk: "",
+            australian: "22",
+        },
+        bouldering: { font: "6B+", vScale: "", ukTech: "" },
+    },
+
+    // Advanced grades
+    {
+        id: 14,
+        difficulty: "advanced",
+        sport: {
+            french: "6c",
+            uiaa: "VIII-",
+            yds: "5.11b",
+            uk: "",
+            australian: "23",
+        },
+        bouldering: { font: "6C", vScale: "V5", ukTech: "" },
+    },
+    {
+        id: 15,
+        difficulty: "advanced",
+        sport: {
+            french: "6c+",
+            uiaa: "VIII",
+            yds: "5.11c",
+            uk: "6a",
+            australian: "24",
+        },
+        bouldering: { font: "6C+", vScale: "", ukTech: "" },
+    },
+    {
+        id: 16,
+        difficulty: "advanced",
+        sport: {
+            french: "7a",
+            uiaa: "VIII+",
+            yds: "5.11d",
+            uk: "",
+            australian: "25",
+        },
+        bouldering: { font: "7A", vScale: "V6", ukTech: "6b" },
+    },
+    {
+        id: 17,
+        difficulty: "advanced",
+        sport: {
+            french: "7a+",
+            uiaa: "IX-",
+            yds: "5.12a",
+            uk: "",
+            australian: "",
+        },
+        bouldering: { font: "7A+", vScale: "V7", ukTech: "" },
+    },
+    {
+        id: 18,
+        difficulty: "advanced",
+        sport: {
+            french: "7b",
+            uiaa: "IX/IX+",
+            yds: "5.12b",
+            uk: "6b",
+            australian: "26",
+        },
+        bouldering: { font: "7B", vScale: "V8", ukTech: "" },
+    },
+    {
+        id: 19,
+        difficulty: "expert",
+        sport: {
+            french: "7b+",
+            uiaa: "IX+",
+            yds: "5.12c",
+            uk: "",
+            australian: "27",
+        },
+        bouldering: { font: "7B+", vScale: "", ukTech: "7a" },
+    },
+    {
+        id: 20,
+        difficulty: "expert",
+        sport: {
+            french: "7c",
+            uiaa: "IX+/X-",
+            yds: "5.12d",
+            uk: "6c",
+            australian: "28",
+        },
+        bouldering: { font: "7C", vScale: "V9", ukTech: "" },
+    },
+
+    // Expert grades
+    {
+        id: 21,
+        difficulty: "expert",
+        sport: {
+            french: "7c+",
+            uiaa: "X-",
+            yds: "5.13a",
+            uk: "",
+            australian: "29",
+        },
+        bouldering: { font: "7C+", vScale: "V10", ukTech: "" },
+    },
+    {
+        id: 22,
+        difficulty: "expert",
+        sport: {
+            french: "8a",
+            uiaa: "X",
+            yds: "5.13b",
+            uk: "",
+            australian: "",
+        },
+        bouldering: { font: "8A", vScale: "V11", ukTech: "" },
+    },
+    {
+        id: 23,
+        difficulty: "expert",
+        sport: {
+            french: "8a+",
+            uiaa: "X+",
+            yds: "5.13c",
+            uk: "7a",
+            australian: "30",
+        },
+        bouldering: { font: "8A+", vScale: "V12", ukTech: "" },
+    },
+    {
+        id: 24,
+        difficulty: "elite",
+        sport: {
+            french: "8b",
+            uiaa: "XI-",
+            yds: "5.13d",
+            uk: "",
+            australian: "31",
+        },
+        bouldering: { font: "8B", vScale: "V13", ukTech: "" },
+    },
+    {
+        id: 25,
+        difficulty: "elite",
+        sport: {
+            french: "8b+",
+            uiaa: "XI",
+            yds: "5.14a",
+            uk: "",
+            australian: "32",
+        },
+        bouldering: { font: "8B+", vScale: "V14", ukTech: "" },
+    },
+
+    // Elite grades
+    {
+        id: 26,
+        difficulty: "elite",
+        sport: {
+            french: "8c",
+            uiaa: "XI+",
+            yds: "5.14b",
+            uk: "7b",
+            australian: "33",
+        },
+        bouldering: { font: "8C", vScale: "V15", ukTech: "" },
+    },
+    {
+        id: 27,
+        difficulty: "elite",
+        sport: {
+            french: "8c+",
+            uiaa: "XII-",
+            yds: "5.14c",
+            uk: "",
+            australian: "34",
+        },
+        bouldering: { font: "8C+", vScale: "V16", ukTech: "" },
+    },
+    {
+        id: 28,
+        difficulty: "elite",
+        sport: {
+            french: "9a",
+            uiaa: "XII",
+            yds: "5.14d",
+            uk: "7c",
+            australian: "35",
+        },
+        bouldering: { font: "9A", vScale: "V17", ukTech: "" },
+    },
+    {
+        id: 29,
+        difficulty: "elite",
+        sport: {
+            french: "9a+",
+            uiaa: "XII+",
+            yds: "5.15a",
+            uk: "",
+            australian: "36",
+        },
+    },
+    {
+        id: 30,
+        difficulty: "elite",
+        sport: {
+            french: "9b",
+            uiaa: "XII+",
+            yds: "5.15b",
+            uk: "",
+            australian: "37",
+        },
+    },
+    {
+        id: 31,
+        difficulty: "elite",
+        sport: {
+            french: "9b+",
+            uiaa: "XIII-",
+            yds: "5.15c",
+            uk: "",
+            australian: "38",
+        },
+    },
+    {
+        id: 32,
+        difficulty: "elite",
+        sport: {
+            french: "9c",
+            uiaa: "XIII",
+            yds: "5.15d",
+            uk: "",
+            australian: "41",
+        },
+    },
+];

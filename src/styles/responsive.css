@@ -1,0 +1,66 @@
+/* Mobile-first responsive styles */
+
+/* Ensure proper touch targets on mobile devices */
+@media (max-width: 767px) {
+    button,
+    [role="button"],
+    .clickable,
+    a {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Adjust font sizes for better readability on small screens */
+    html {
+        font-size: 14px;
+    }
+
+    /* Prevent zoom on inputs on iOS */
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"],
+    select {
+        font-size: 16px;
+    }
+
+    /* Improve spacing on mobile */
+    .container {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    /* Reduce margins and paddings on mobile */
+    section {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+/* Fix iOS 100vh issue with viewport units */
+.min-h-screen {
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+}
+
+/* Handle orientation changes */
+@media screen and (orientation: portrait) {
+    .portrait-only {
+        display: block;
+    }
+
+    .landscape-only {
+        display: none;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .portrait-only {
+        display: none;
+    }
+
+    .landscape-only {
+        display: block;
+    }
+}
